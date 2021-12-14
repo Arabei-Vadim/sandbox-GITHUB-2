@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    color: black;
+    line-height: 1.5;
+    background-image: url(img/bg.png);
+}
+
+/* Header*/
+.page{
+    margin: 20px auto;
+    width: 800px;
+
+}
+.header{
+    margin: 0;
+    background-color: black;
+}
+.header-title{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.header-subtitle{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(253, 218, 218);
+    font-weight: normal;
+}
+
+
+/* Navigantion*/
+.nav{
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+.nav-link:hover {
+    background-color: rgb(80, 65, 65);
+
+}
+
+
+/* Content*/
+.content {
+    padding: 20px;
+}
+.content-title{
+    font-size: 20px;
+    margin: 0;
+    color: red;
+    text-align: center;
+}
+.content-text{
+    margin-bottom: 20px ;
+
+}
+.content-link{
+    text-decoration: none;
+    color: royalblue;
+    margin-left: 70%;
+}
+.content-link:hover {
+    text-decoration: underline;
+}
+
+/* Article*/
+.article {
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(65, 60, 60);
+    padding: 0 0 5px 0;
+}
+.article-title {
+    margin: 0 0 5px 0;
+    color: inherit;
+}
+.article-title a{
+    font-family: fantasy;
+    font-size: 16px;
+    font-style: italic;
+    text-decoration: none;
+}
+.article-title a:hover {
+    text-decoration: underline;
+}
+
+.article-content {
+    margin-bottom: 10px;
+    
+}
+.article-date{
+    margin:0px 0 10px 0;
+}
+
+/* Footer*/
+.footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+}
